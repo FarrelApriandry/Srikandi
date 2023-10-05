@@ -86,10 +86,6 @@ body {
     margin-top: -10px;
 }
 
-.sidebar-nav {
-    /* margin-top: 12px; */
-}
-
 .sidebar-nav ul {
     list-style: none;
     padding: 0;
@@ -198,10 +194,6 @@ body {
     width: 12px;
 }
 
-.btn-dropdown-menu:hover {
-    
-}
-
 /* ------------------------------------------ dashboard style -------------------------------------------------- */
 
 .dashboard-container {
@@ -251,7 +243,7 @@ body {
     margin-top: px;
     width: 100%;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .ttd-naskah-container div {
