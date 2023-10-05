@@ -24,7 +24,7 @@ body {
 
 .sidebar {
     position: absolute;
-    width: 17em;
+    width: 18em;
     height: 100%;
     top: 0;
     background-color: #fff;
@@ -47,7 +47,8 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 8px;
-    padding: 0em 1em;
+    padding: 0em 1em 5px;
+    border-bottom:  1px solid #2f2f2f30;
 }
 
 .sidebar-profile img {
@@ -61,6 +62,7 @@ body {
     -o-border-radius: 50%;
     margin-top: 20px;
 }
+
 .sidebar-profile-information {
     padding-left: 15px;
 }
@@ -74,8 +76,8 @@ body {
 }
 
 .sidebar-profile-information p {
-    color: #00000080;
-    font-size: 10px;
+    color: #00000090;
+    font-size: 12px;
     font-family: var(--poppins);
 
 }
@@ -85,7 +87,7 @@ body {
 }
 
 .sidebar-nav {
-    margin-top: 12px;
+    /* margin-top: 12px; */
 }
 
 .sidebar-nav ul {
@@ -98,13 +100,13 @@ body {
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    height: 40px;
-    padding-top: 10px;
+    height: 35px;
+    padding-top: 15px;
 }
 
 .sidebar-nav ul li a {
     font-family: var(--poppins);
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: none;
     padding-left: 8px;
 }
@@ -132,4 +134,70 @@ body {
     width: 23px;
     height: 23px;
     padding-left: 20px;
+}
+
+
+/* ------------------------------------------ navbar style -------------------------------------------------- */
+
+.navbar {
+    background-color: #3176b7;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: flex-end;
+}
+
+.navbar p {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.btn-menu {
+    margin-right: 80.5rem;
+    background-color: inherit;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-menu img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(19deg) brightness(103%) contrast(101%);
+    width: 25px;
+    -webkit-filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(19deg) brightness(103%) contrast(101%);
+}
+
+#profile-img {
+    width: 38px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    vertical-align: center;
+    cursor: pointer;
+    box-shadow: 2px 3px #17171760;
+}
+
+.btn-dropdown-menu {
+    background-color: inherit;
+    border: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-dropdown-menu img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(19deg) brightness(103%) contrast(101%);
+    width: 12px;
+}
+
+.btn-dropdown-menu:hover {
+    
 }

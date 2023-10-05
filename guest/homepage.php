@@ -65,6 +65,14 @@
                     </ul>
                 </nav>
             </div>
+            <div class="navbar">
+                <button class="btn-menu">
+                    <img src="../img/menu.svg" alt="" srcset="" id>
+                </button>
+                <p>Selamat Datang, Kobe Bryant</p>
+                <img src="../img/profile.jpg" id="profile-img" alt="Your Image">
+                <button class="btn-dropdown-menu"><img src="../img/down-arrow.svg" alt="" srcset=""></button>
+            </div>
         </div>
     </body>
 </html>
