@@ -27,43 +27,43 @@
                 <nav class="sidebar-nav">
                     <ul>
                         <li>
-                            <a href="#"><i class="ion-bag"></i> <span>Beranda</span></a>
+                            <a href="#"><i></i> <span>Beranda</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-settings"></i> <span class="">Controls</span></a>
+                            <a href="#"><i></i> <span class="">Controls</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-briefcase-outline"></i> <span class="">Tandatangan Naskah</span></a>
+                            <a href="#"><i></i> <span class="">Tandatangan Naskah</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-analytics-outline"></i> <span class="">Registrasi Naskah Keluar</span></a>
+                            <a href="#"><i></i> <span class="">Registrasi Naskah Keluar</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-paper-outline"></i> <span class="">Template Naskah</span></a>
+                            <a href="#"><i></i> <span class="">Template Naskah</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-navigate-outline"></i> <span class="">Verifikasi Naskah</span></a>
+                            <a href="#"><i></i> <span class="">Verifikasi Naskah</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Naskah Masuk</span></a>
+                            <a href="#"><i></i> <span class="">Naskah Masuk</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Naskah Keluar</span></a>
+                            <a href="#"><i></i> <span class="">Naskah Keluar</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Daftar Disposisi</span></a>
+                            <a href="#"><i></i> <span class="">Daftar Disposisi</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Log Disposisi</span></a>
+                            <a href="#"><i></i> <span class="">Log Disposisi</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Daftar Tembusan</span></a>
+                            <a href="#"><i></i> <span class="">Daftar Tembusan</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Pengaturan</span></a>
+                            <a href="#"><i></i> <span class="">Pengaturan</span></a>
                         </li>
                         <li>
-                            <a href="#"><i class="ion-ios-medical-outline"></i> <span class="">Berkas</span></a>
+                            <a href="#"><i></i> <span class="">Berkas</span></a>
                         </li>
                     </ul>
                 </nav>
