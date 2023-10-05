@@ -26,13 +26,13 @@
                 </div>
                 <nav class="sidebar-nav">
                     <ul>
-                        <li class="active-item">
+                        <li class="unactive-item">
                             <img src="../img/logo.png" alt="" srcset=""><a href="./homepage.php">Beranda</a>
                         </li>
                         <li class="unactive-item">
                             <img src="../img/logo.png" alt="" srcset=""><a href="./homepage copy.php">Tandatangan Naskah</span></a>
                         </li>
-                        <li class="unactive-item">
+                        <li class="active-item">
                             <img src="../img/logo.png" alt="" srcset=""><a href="./homepage copy 2.php">Registrasi Naskah Keluar</span></a>
                         </li>
                         <li class="unactive-item">
