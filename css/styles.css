@@ -1,0 +1,80 @@
+:root {
+    --poppins : 'Poppins', sans-serif;
+    --thin : 100 ;
+    --extralight : 200 ;
+    --light : 300 ;
+    --regular : 400 ;
+    --medium : 500 ;
+    --semibold : 600 ;
+    --bold : 700 ;
+    --extrabold : 800 ;
+    --rad: .7rem;
+    --dur: .3s;
+    --color-dark: #2f2f2f;
+    --color-light: #fff;
+    --color-brand: #57bd84;
+    --height: 5rem;
+    --btn-width: 6rem;
+}
+
+.sidebar {
+    position: absolute;
+    width: 17em;
+    height: 100%;
+    top: 0;
+    background-color: #fff;
+    visibility: visible;
+    color: #fff;
+    border-right: 1px solid #2f2f2f30;
+}
+
+.sidebar header {
+    background-color: #4fa6e8;
+    width: 87%;
+    display:block;
+    padding: 0.7em	1em;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: var(--medium) ;
+}
+
+.sidebar-profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    padding: 0em 1em;
+}
+
+.sidebar-profile img {
+    vertical-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 20px;
+}
+.sidebar-profile-information {
+    padding-left: 15px;
+}
+
+.sidebar-profile-information h3 {
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: var(--poppins);
+    margin-bottom: -7px;
+}
+
+.sidebar-profile-information p {
+    color: #00000080;
+    font-size: 10px;
+    font-family: var(--poppins);
+
+}
+
+.last-profile-sidebar {
+    margin-top: -10px;
+}
