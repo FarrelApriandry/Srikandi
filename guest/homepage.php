@@ -73,6 +73,39 @@
                 <img src="../img/profile.jpg" id="profile-img" alt="Your Image">
                 <button class="btn-dropdown-menu"><img src="../img/down-arrow.svg" alt="" srcset=""></button>
             </div>
+            <div class="dashboard-container">
+                <div class="dashboard-content">
+                    <div class="header-dashboard">
+                        <img src="../img/logo.png" alt="" srcset=""><h1><span class="bold-text">Beranda</span> - Selamat datang, Kobe Bryant !</h1>
+                    </div>
+                    <div class="card">
+                        <h3> Tandatangan Naskah</h3>
+                        <div class="ttd-naskah-container">
+                            <div class="first-ttd-naskah">
+                                <img src="../img/logo.png" alt="" srcset="">
+                                <h3>0</h3>
+                                <a href="">
+                                    <p>Naskah yang belum diberi Tanda Tangan</p>
+                                </a>
+                            </div>
+                            <div class="second-ttd-naskah">
+                                <img src="../img/logo.png" alt="" srcset="">
+                                <h3>0</h3>
+                                <a href="">
+                                    <p>Naskah yang belum Dikirim</p>
+                                </a>
+                            </div>
+                            <div class="third-ttd-naskah">
+                                <img src="../img/logo.png" alt="" srcset="">
+                                <h3>0</h3>
+                                <a href="">
+                                    <p>Naskah yang Ditolak</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
