@@ -109,10 +109,12 @@ body {
 
 .active-item {
     background-color: #49a8ed;
+    cursor: default;
 }
 
 .active-item a{
     color: #fff;
+    cursor: default;
 }
 
 .active-item img {
@@ -124,6 +126,11 @@ body {
 
 .unactive-item a {
     color: #171717;
+}
+
+.unactive-item:hover {
+    background-color: #d4d4d4;  
+    cursor: pointer;
 }
 
 .unactive-item img {
@@ -230,7 +237,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 5px #17171760;
-    height: 300px;
+    height: 720px;
 }
 
 .card h3 {
@@ -258,10 +265,46 @@ body {
     font-family: var(--poppins);
 }
 
-.ttd-naskah-container div p {
-    display: block;
+.ttd-naskah-container div a {
+    text-align: center;
+}
+
+.ttd-naskah-container div a p {
+    font-family: var(--poppins);
+    text-align: center;
 }
 
 .ttd-naskah-container div img {
     width: 40px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.card-rnk {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px #17171760;
+    height: 720px;
+}
+
+.header-rnk {
+
+}
+
+.first-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-input label {
+    
 }

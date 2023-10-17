@@ -70,8 +70,10 @@
                     <img src="../img/menu.svg" alt="" srcset="" id>
                 </button>
                 <p>Selamat Datang, Kobe Bryant</p>
-                <img src="../img/profile.jpg" id="profile-img" alt="Your Image">
-                <button class="btn-dropdown-menu"><img src="../img/down-arrow.svg" alt="" srcset=""></button>
+                <div class="profile">
+                    <img src="../img/profile.jpg" id="profile-img" alt="Your Image">
+                    <button class="btn-dropdown-menu"><img src="../img/down-arrow.svg" alt="" srcset=""></button>
+                </div>
             </div>
             <div class="dashboard-container">
                 <div class="dashboard-content">
